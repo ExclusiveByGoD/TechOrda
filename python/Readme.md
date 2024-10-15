@@ -1,2 +1,7 @@
-# ссылка на задание:
-## [fastapi-final Assylzhan Sailaubek](https://github.com/ExclusiveByGoD/fastapi)
+# Ссылка на выполненное задание по API:
+## [fastapi-final (отдельный репозиторий)](https://github.com/ExclusiveByGoD/fastapi)
+
+### Решения по Python в своих папках:
+- легкие вопросы
+- сложные задачи
+- средние задачи
