@@ -14,3 +14,7 @@
 | 10   | Задание | nginx-cert        | [github.com](./nginx-cert/)        |
 | 11   | Задание | nginx-logging     | [github.com](./nginx-logging/)     |
 | 12   | Задание | nginx-ufw         | [github.com](./nginx-ufw/)         |
+
+---
+
+## Все задачи выполнены и находятся в своих папках в файлах README.md
