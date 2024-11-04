@@ -37,3 +37,30 @@ bash ./tester.sh
 ---
 
 ### Ответ
+
+```bash
+root@aseke-ThinkPad-E14:/home/aseke/Projects/fastapi# ls
+collection.json  docker-compose.yml  Dockerfile  main.py  __pycache__  README.md  requirements.txt
+
+root@aseke-ThinkPad-E14:/home/aseke/Projects/fastapi# cat docker-compose.yml 
+version: '3.8'
+
+services:
+  api:
+    image: jusan-fastapi-final:dockerized
+    container_name: jusan-compose
+    ports:
+      - "8282:8080"
+    restart: unless-stopped
+
+root@aseke-ThinkPad-E14:/home/aseke/Projects/fastapi# docker-compose up -d
+Creating network "fastapi_default" with the default driver
+Creating jusan-compose ... done
+
+root@aseke-ThinkPad-E14:/home/aseke/Projects/fastapi# curl -X PUT -d '{"element":"Microsoft"}' -H 'Content-Type: application/json' http://localhost:8282/list
+{"result":["Microsoft"]}
+
+root@aseke-ThinkPad-E14:/home/aseke/Projects/fastapi# docker-compose ps
+    Name                   Command               State                    Ports                  
+-------------------------------------------------------------------------------------------------
+jusan-compose   uvicorn main:app --host 0. ...   Up      0.0.0.0:8282->8080/tcp,:::8282->8080/tcp
