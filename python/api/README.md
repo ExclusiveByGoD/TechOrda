@@ -7,4 +7,4 @@
 | 3    | Рецензия Ментора | fastapi-final | [github.com](./fastapi-final/) |
 
 # Ссылка на выполненное задание по API:
-## [fastapi-final (отдельный репозиторий)](https://github.com/ExclusiveByGoD/fastapi)
+## [fastapi-final ✅](https://github.com/ExclusiveByGoD/fastapi)
