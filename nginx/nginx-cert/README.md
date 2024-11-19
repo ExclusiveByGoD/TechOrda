@@ -43,7 +43,7 @@ curl -H "Host: jusan.kz" -k https://localhost/secret_word
 ---
 
 ### Ответ
-
+```bash
 
 aseke@aseke-ThinkPad-E14:/etc/nginx/conf.d$ curl -H "Host: jusan.kz" -k https://localhost/secret_word
 jusan-nginx-cert

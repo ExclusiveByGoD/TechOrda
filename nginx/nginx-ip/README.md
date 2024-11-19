@@ -22,6 +22,7 @@
 ---
 
 ### Ответ
+```bash
 
 aseke@aseke-ThinkPad-E14:/etc/nginx/conf.d$ curl -v http://localhost:8080/secret_word --header "Host: example.com"
 *   Trying 127.0.0.1:8080...

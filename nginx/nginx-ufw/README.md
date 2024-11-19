@@ -20,6 +20,7 @@
 ---
 
 ### Ответ
+```bash
 
 aseke@aseke-ThinkPad-E14:~$ sudo apt install ufw
 Чтение списков пакетов… Готово

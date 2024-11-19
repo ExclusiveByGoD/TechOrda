@@ -25,7 +25,7 @@ curl -H "Host: example.com" http://localhost:8080/
 ---
 
 ### Ответ
-
+```bash
 aseke@aseke-ThinkPad-E14:~$ curl -H "Host: example.com" http://localhost:8080/
 <!DOCTYPE html>
 <html lang="en">

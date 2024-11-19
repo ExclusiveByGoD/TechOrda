@@ -114,6 +114,7 @@ curl http://127.0.0.1
 ---
 
 ### Ответ
+```bash
 
 aseke@aseke-ThinkPad-E14:~$ nginx -v
 nginx version: nginx/1.27.2

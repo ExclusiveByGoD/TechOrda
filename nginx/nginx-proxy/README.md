@@ -35,6 +35,7 @@ web-server: 0
 ---
 
 ### Ответ
+```bash
 
 aseke@aseke-ThinkPad-E14:/var/www/task-nginx$ curl http://localhost/api
 <html>

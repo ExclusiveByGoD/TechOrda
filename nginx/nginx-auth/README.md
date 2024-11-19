@@ -12,6 +12,7 @@
 ---
 
 ### Ответ
+```bash
 
 aseke@aseke-ThinkPad-E14:/etc/nginx/conf.d$ curl -u 'design:SteveJobs1955' -s -w "%{size_download}\n" -o /dev/null http://localhost:8080/images/sleep.png
 curl -u 'design:SteveJobs1955' -s -w "%{size_download}\n" -o /dev/null http://localhost:8080/images/flower.png
